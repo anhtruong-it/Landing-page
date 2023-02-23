@@ -205,11 +205,18 @@ section.your-active-class {
 
 section.your-active-class .landing__container::before {
     opacity: 1;
+    background: rgb(0, 0, 0);
     animation: rotate 4s linear 0s infinite forwards;
+    
+}
+
+section.your-active-class .landing__container h2 {
+    color: yellowgreen;
 }
 
 section.your-active-class .landing__container::after {
     opacity: 1;
+   
     animation: rotate 5s linear 0s infinite forwards reverse;
 }
 
